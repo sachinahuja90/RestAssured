@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API">
+        <methods>
+          <include name="tc_NAG_NAGP_14_AddUpdateDeleteNotes"/>
+          <include name="getResult"/>
+          <include name="initiate"/>
+          <include name="tc_NAG_NAGP_14_AddNotes"/>
+          <include name="BeforeSuite"/>
+          <include name="tearDown"/>
+          <include name="initializeRestClient"/>
+          <include name="tc_NAG_NAGP_10_AddUpdateNotes"/>
+          <include name="tc_NAG_NAGP_11_AddDeleteNotes"/>
+        </methods>
+      </class> <!-- com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

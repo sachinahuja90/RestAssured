@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  selenium</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>selenium</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 01 18:30:59 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>110 seconds (110457 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_10_AddUpdateSubTask()'><b>tc_NAG_NAGP_10_AddUpdateSubTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API<br>Test method: Validate that a user is able to Add and Update a List using WunderLink API.<br>Parameters: [task_id, title, completed], [5447815366, Task for Groceries, true]</td>
+<td></td>
+<td>2</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@d44fc21</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_10_AddUpdateSubTask()'><b>tc_NAG_NAGP_10_AddUpdateSubTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API<br>Test method: Validate that a user is able to Add and Update a List using WunderLink API.<br>Parameters: [task_id, title, completed], [5447815366, Task for Family, false]</td>
+<td></td>
+<td>3</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@d44fc21</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_11_AddDeleteSubTask()'><b>tc_NAG_NAGP_11_AddDeleteSubTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API<br>Test method: Validate that a user is able to Delete a List after adding it using WunderLink API.<br>Parameters: [task_id, title, completed], [5447815366, Task for Groceries, true]</td>
+<td></td>
+<td>4</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@d44fc21</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_11_AddDeleteSubTask()'><b>tc_NAG_NAGP_11_AddDeleteSubTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API<br>Test method: Validate that a user is able to Delete a List after adding it using WunderLink API.<br>Parameters: [task_id, title, completed], [5447815366, Task for Family, false]</td>
+<td></td>
+<td>4</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@d44fc21</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_12_AddUpdateDeleteSubTask()'><b>tc_NAG_NAGP_12_AddUpdateDeleteSubTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API<br>Test method: Validate that a user is able to Update and Delete a List after adding it using WunderLink API.<br>Parameters: [task_id, title, completed], [5447815366, Task for Groceries, true]</td>
+<td></td>
+<td>6</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@d44fc21</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_12_AddUpdateDeleteSubTask()'><b>tc_NAG_NAGP_12_AddUpdateDeleteSubTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API<br>Test method: Validate that a user is able to Update and Delete a List after adding it using WunderLink API.<br>Parameters: [task_id, title, completed], [5447815366, Task for Family, false]</td>
+<td></td>
+<td>6</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@d44fc21</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API.tc_NAG_NAGP_13_AddComments()'><b>tc_NAG_NAGP_13_AddComments</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API<br>Test method: Validate that a user is able to Add a Task using WunderLink API.<br>Parameters: [task_id, text], [5447815366, Hey There]</td>
+<td></td>
+<td>6</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@71bbf57e</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API.tc_NAG_NAGP_13_AddComments()'><b>tc_NAG_NAGP_13_AddComments</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API<br>Test method: Validate that a user is able to Add a Task using WunderLink API.<br>Parameters: [task_id, text], [5447815366, How are you.]</td>
+<td></td>
+<td>4</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@71bbf57e</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API.tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes()'><b>tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API<br>Test method: Validate that a user is able to Update and Delete Notes after adding it using WunderLink API.<br>Parameters: [content], [Hey there.]</td>
+<td></td>
+<td>10</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@23faf8f2</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API.tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes()'><b>tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API<br>Test method: Validate that a user is able to Update and Delete Notes after adding it using WunderLink API.<br>Parameters: [content, task_id], [How are you.]</td>
+<td></td>
+<td>7</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@23faf8f2</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_List_API.tc_NAG_NAGP_1_AddList()'><b>tc_NAG_NAGP_1_AddList</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_List_API<br>Test method: Validate that a user is able to Add a List using WunderLink API.<br>Parameters: [title], [New List for NAGP Assignment]</td>
+<td></td>
+<td>3</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@7f13d6e</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_List_API.tc_NAG_NAGP_2_AddUpdateList()'><b>tc_NAG_NAGP_2_AddUpdateList</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_List_API<br>Test method: Validate that a user is able to Add and Update a List using WunderLink API.<br>Parameters: [title], [New List for NAGP Assignment]</td>
+<td></td>
+<td>4</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@7f13d6e</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_List_API.tc_NAG_NAGP_3_AddDeleteList()'><b>tc_NAG_NAGP_3_AddDeleteList</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_List_API<br>Test method: Validate that a user is able to Delete a List after adding it using WunderLink API.<br>Parameters: [title], [New List for NAGP Assignment]</td>
+<td></td>
+<td>5</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@7f13d6e</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_List_API.tc_NAG_NAGP_4_AddUpdateDeleteList()'><b>tc_NAG_NAGP_4_AddUpdateDeleteList</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_List_API<br>Test method: Validate that a user is able to Update and Delete a List after adding it using WunderLink API.<br>Parameters: [title], [New List for NAGP Assignment]</td>
+<td></td>
+<td>6</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@7f13d6e</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_5_AddTask()'><b>tc_NAG_NAGP_5_AddTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API<br>Test method: Validate that a user is able to Add a Task using WunderLink API.<br>Parameters: [title, assignee_id, completed], [Task for Groceries, 12345, false]</td>
+<td></td>
+<td>4</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@51cdd8a</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_5_AddTask()'><b>tc_NAG_NAGP_5_AddTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API<br>Test method: Validate that a user is able to Add a Task using WunderLink API.<br>Parameters: [title, assignee_id, completed, list_id], [Task for Family, 12344, false]</td>
+<td></td>
+<td>3</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@51cdd8a</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_6_AddUpdateTask()'><b>tc_NAG_NAGP_6_AddUpdateTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API<br>Test method: Validate that a user is able to Add and Update a List using WunderLink API.<br>Parameters: [title], [New List for NAGP Assignment]</td>
+<td></td>
+<td>3</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@51cdd8a</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_7_AddDeleteTask()'><b>tc_NAG_NAGP_7_AddDeleteTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API<br>Test method: Validate that a user is able to Delete a List after adding it using WunderLink API.<br>Parameters: [title, assignee_id, completed], [Task for Groceries, 12345, false]</td>
+<td></td>
+<td>4</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@51cdd8a</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_7_AddDeleteTask()'><b>tc_NAG_NAGP_7_AddDeleteTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API<br>Test method: Validate that a user is able to Delete a List after adding it using WunderLink API.<br>Parameters: [title, assignee_id, completed, list_id], [Task for Family, 12344, false]</td>
+<td></td>
+<td>4</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@51cdd8a</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_8_AddUpdateDeleteTask()'><b>tc_NAG_NAGP_8_AddUpdateDeleteTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API<br>Test method: Validate that a user is able to Update and Delete a List after adding it using WunderLink API.<br>Parameters: [title], [New List for NAGP Assignment]</td>
+<td></td>
+<td>6</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@51cdd8a</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_9_AddSubTask()'><b>tc_NAG_NAGP_9_AddSubTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API<br>Test method: Validate that a user is able to Add a Task using WunderLink API.<br>Parameters: [task_id, title, completed], [5447815366, Task for Groceries, true]</td>
+<td></td>
+<td>3</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@d44fc21</td></tr>
+<tr>
+<td title='com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_9_AddSubTask()'><b>tc_NAG_NAGP_9_AddSubTask</b><br>Test class: com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API<br>Test method: Validate that a user is able to Add a Task using WunderLink API.<br>Parameters: [task_id, title, completed], [5447815366, Task for Family, false]</td>
+<td></td>
+<td>3</td>
+<td>com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@d44fc21</td></tr>
+</table><p>
+</body>
+</html>

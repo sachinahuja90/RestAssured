@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="30" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="97663" started-at="2019-10-01T17:26:10Z" finished-at="2019-10-01T17:27:47Z">
+    <groups>
+      <group name="Comment">
+        <method signature="Test_WunderList_TaskComment_API.tc_NAG_NAGP_13_AddComments(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872]" name="tc_NAG_NAGP_13_AddComments" class="com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API"/>
+      </group> <!-- Comment -->
+      <group name="Subtask">
+        <method signature="Test_WunderList_SubTask_API.tc_NAG_NAGP_10_AddUpdateSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_10_AddUpdateSubTask" class="com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API"/>
+        <method signature="Test_WunderList_SubTask_API.tc_NAG_NAGP_11_AddDeleteSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_11_AddDeleteSubTask" class="com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API"/>
+        <method signature="Test_WunderList_SubTask_API.tc_NAG_NAGP_12_AddUpdateDeleteSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_12_AddUpdateDeleteSubTask" class="com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API"/>
+        <method signature="Test_WunderList_SubTask_API.tc_NAG_NAGP_9_AddSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_9_AddSubTask" class="com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API"/>
+      </group> <!-- Subtask -->
+      <group name="Task">
+        <method signature="Test_WunderList_Task_API.tc_NAG_NAGP_5_AddTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="tc_NAG_NAGP_5_AddTask" class="com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API"/>
+        <method signature="Test_WunderList_Task_API.tc_NAG_NAGP_6_AddUpdateTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="tc_NAG_NAGP_6_AddUpdateTask" class="com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API"/>
+        <method signature="Test_WunderList_Task_API.tc_NAG_NAGP_7_AddDeleteTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="tc_NAG_NAGP_7_AddDeleteTask" class="com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API"/>
+        <method signature="Test_WunderList_Task_API.tc_NAG_NAGP_8_AddUpdateDeleteTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="tc_NAG_NAGP_8_AddUpdateDeleteTask" class="com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API"/>
+      </group> <!-- Task -->
+      <group name="List">
+        <method signature="Test_WunderList_List_API.tc_NAG_NAGP_1_AddList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="tc_NAG_NAGP_1_AddList" class="com.nag.nagp.wunderList.testcases.Test_WunderList_List_API"/>
+        <method signature="Test_WunderList_List_API.tc_NAG_NAGP_2_AddUpdateList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="tc_NAG_NAGP_2_AddUpdateList" class="com.nag.nagp.wunderList.testcases.Test_WunderList_List_API"/>
+        <method signature="Test_WunderList_List_API.tc_NAG_NAGP_3_AddDeleteList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="tc_NAG_NAGP_3_AddDeleteList" class="com.nag.nagp.wunderList.testcases.Test_WunderList_List_API"/>
+        <method signature="Test_WunderList_List_API.tc_NAG_NAGP_4_AddUpdateDeleteList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="tc_NAG_NAGP_4_AddUpdateDeleteList" class="com.nag.nagp.wunderList.testcases.Test_WunderList_List_API"/>
+      </group> <!-- List -->
+      <group name="Notes">
+        <method signature="Test_WunderList_Notes_API.tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@6fb554cc]" name="tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes" class="com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API"/>
+      </group> <!-- Notes -->
+    </groups>
+    <test name="Wunderlist Rest API" duration-ms="97663" started-at="2019-10-01T17:26:10Z" finished-at="2019-10-01T17:27:47Z">
+      <class name="com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@6fb554cc]" name="initiate" is-config="true" duration-ms="0" started-at="2019-10-01T17:27:13Z" finished-at="2019-10-01T17:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@6fb554cc]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:27:13Z" finished-at="2019-10-01T17:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API.tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@6fb554cc]" name="tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes" duration-ms="19630" started-at="2019-10-01T17:27:13Z" description="Validate that a user is able to Update and Delete Notes after adding it using WunderLink API." data-provider="Add Notes" finished-at="2019-10-01T17:27:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[content]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Hey there.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@6fb554cc]" name="getResult" is-config="true" duration-ms="2" started-at="2019-10-01T17:27:32Z" finished-at="2019-10-01T17:27:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes status=SUCCESS method=Test_WunderList_Notes_API.tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@6fb554cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@6fb554cc]" name="initializeRestClient" is-config="true" duration-ms="2" started-at="2019-10-01T17:27:32Z" finished-at="2019-10-01T17:27:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API.tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@6fb554cc]" name="tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes" duration-ms="14734" started-at="2019-10-01T17:27:32Z" description="Validate that a user is able to Update and Delete Notes after adding it using WunderLink API." data-provider="Add Notes" finished-at="2019-10-01T17:27:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[content, task_id]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[How are you.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@6fb554cc]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:27:47Z" finished-at="2019-10-01T17:27:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes status=SUCCESS method=Test_WunderList_Notes_API.tc_NAG_NAGP_14_AddGetUpdateDeleteGetNotes(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API@6fb554cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.nag.nagp.wunderList.testcases.Test_WunderList_Notes_API -->
+      <class name="com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="initiate" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:31Z" finished-at="2019-10-01T17:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:31Z" finished-at="2019-10-01T17:26:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_5_AddTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_5_AddTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="tc_NAG_NAGP_5_AddTask" duration-ms="3339" started-at="2019-10-01T17:26:31Z" description="Validate that a user is able to Add a Task using WunderLink API." data-provider="Add Task" finished-at="2019-10-01T17:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[title, assignee_id, completed]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Task for Groceries, 12345, false]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_5_AddTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:35Z" finished-at="2019-10-01T17:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_5_AddTask status=SUCCESS method=Test_WunderList_Task_API.tc_NAG_NAGP_5_AddTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_5_AddTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="tc_NAG_NAGP_5_AddTask" duration-ms="1982" started-at="2019-10-01T17:26:35Z" description="Validate that a user is able to Add a Task using WunderLink API." data-provider="Add Task" finished-at="2019-10-01T17:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[title, assignee_id, completed, list_id]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Task for Family, 12344, false]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_5_AddTask -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:35Z" finished-at="2019-10-01T17:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_5_AddTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:37Z" finished-at="2019-10-01T17:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_5_AddTask status=SUCCESS method=Test_WunderList_Task_API.tc_NAG_NAGP_5_AddTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:37Z" finished-at="2019-10-01T17:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_6_AddUpdateTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_6_AddUpdateTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="tc_NAG_NAGP_6_AddUpdateTask" duration-ms="2550" started-at="2019-10-01T17:26:37Z" description="Validate that a user is able to Add and Update a Task using WunderLink API." data-provider="Add List" finished-at="2019-10-01T17:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[title]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[New List for NAGP Assignment]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_6_AddUpdateTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:39Z" finished-at="2019-10-01T17:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_6_AddUpdateTask status=SUCCESS method=Test_WunderList_Task_API.tc_NAG_NAGP_6_AddUpdateTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_7_AddDeleteTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="tc_NAG_NAGP_7_AddDeleteTask" duration-ms="2975" started-at="2019-10-01T17:26:39Z" description="Validate that a user is able to Delete a Task after adding it using WunderLink API." data-provider="Add Task" finished-at="2019-10-01T17:26:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[title, assignee_id, completed]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Task for Groceries, 12345, false]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_7_AddDeleteTask -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:39Z" finished-at="2019-10-01T17:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_7_AddDeleteTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:42Z" finished-at="2019-10-01T17:26:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_7_AddDeleteTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:42Z" finished-at="2019-10-01T17:26:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_7_AddDeleteTask status=SUCCESS method=Test_WunderList_Task_API.tc_NAG_NAGP_7_AddDeleteTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_7_AddDeleteTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="tc_NAG_NAGP_7_AddDeleteTask" duration-ms="3054" started-at="2019-10-01T17:26:42Z" description="Validate that a user is able to Delete a Task after adding it using WunderLink API." data-provider="Add Task" finished-at="2019-10-01T17:26:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[title, assignee_id, completed, list_id]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Task for Family, 12344, false]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_7_AddDeleteTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:45Z" finished-at="2019-10-01T17:26:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_7_AddDeleteTask status=SUCCESS method=Test_WunderList_Task_API.tc_NAG_NAGP_7_AddDeleteTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_8_AddUpdateDeleteTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="tc_NAG_NAGP_8_AddUpdateDeleteTask" duration-ms="4183" started-at="2019-10-01T17:26:45Z" description="Validate that a user is able to Update and Delete a Task after adding it using WunderLink API." data-provider="Add List" finished-at="2019-10-01T17:26:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[title]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[New List for NAGP Assignment]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_8_AddUpdateDeleteTask -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:45Z" finished-at="2019-10-01T17:26:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API.tc_NAG_NAGP_8_AddUpdateDeleteTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:50Z" finished-at="2019-10-01T17:26:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_8_AddUpdateDeleteTask status=SUCCESS method=Test_WunderList_Task_API.tc_NAG_NAGP_8_AddUpdateDeleteTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API@3f2a3a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.nag.nagp.wunderList.testcases.Test_WunderList_Task_API -->
+      <class name="com.nag.nagp.wunderList.testcases.Test_WunderList_List_API">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="initiate" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:19Z" finished-at="2019-10-01T17:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:19Z" finished-at="2019-10-01T17:26:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_List_API.tc_NAG_NAGP_1_AddList(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_1_AddList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="tc_NAG_NAGP_1_AddList" duration-ms="2285" started-at="2019-10-01T17:26:19Z" description="Validate that a user is able to Add a List using WunderLink API." data-provider="Add List" finished-at="2019-10-01T17:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[title]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[New List for NAGP Assignment]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_1_AddList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:21Z" finished-at="2019-10-01T17:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_1_AddList status=SUCCESS method=Test_WunderList_List_API.tc_NAG_NAGP_1_AddList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:21Z" finished-at="2019-10-01T17:26:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_List_API.tc_NAG_NAGP_2_AddUpdateList(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_2_AddUpdateList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="tc_NAG_NAGP_2_AddUpdateList" duration-ms="3036" started-at="2019-10-01T17:26:21Z" description="Validate that a user is able to Add and Update a List using WunderLink API." data-provider="Add List" finished-at="2019-10-01T17:26:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[title]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[New List for NAGP Assignment]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_2_AddUpdateList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:24Z" finished-at="2019-10-01T17:26:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_2_AddUpdateList status=SUCCESS method=Test_WunderList_List_API.tc_NAG_NAGP_2_AddUpdateList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_3_AddDeleteList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="tc_NAG_NAGP_3_AddDeleteList" duration-ms="2942" started-at="2019-10-01T17:26:24Z" description="Validate that a user is able to Delete a List after adding it using WunderLink API." data-provider="Add List" finished-at="2019-10-01T17:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[title]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[New List for NAGP Assignment]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_3_AddDeleteList -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:24Z" finished-at="2019-10-01T17:26:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_List_API.tc_NAG_NAGP_3_AddDeleteList(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:27Z" finished-at="2019-10-01T17:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_3_AddDeleteList status=SUCCESS method=Test_WunderList_List_API.tc_NAG_NAGP_3_AddDeleteList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:27Z" finished-at="2019-10-01T17:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_List_API.tc_NAG_NAGP_4_AddUpdateDeleteList(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_4_AddUpdateDeleteList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="tc_NAG_NAGP_4_AddUpdateDeleteList" duration-ms="4162" started-at="2019-10-01T17:26:27Z" description="Validate that a user is able to Update and Delete a List after adding it using WunderLink API." data-provider="Add List" finished-at="2019-10-01T17:26:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[title]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[New List for NAGP Assignment]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_4_AddUpdateDeleteList -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:31Z" finished-at="2019-10-01T17:26:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_4_AddUpdateDeleteList status=SUCCESS method=Test_WunderList_List_API.tc_NAG_NAGP_4_AddUpdateDeleteList(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_List_API@60addb54] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.nag.nagp.wunderList.testcases.Test_WunderList_List_API -->
+      <class name="com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872]" name="BeforeSuite" is-config="true" duration-ms="461" started-at="2019-10-01T17:26:09Z" finished-at="2019-10-01T17:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872]" name="initiate" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:10Z" finished-at="2019-10-01T17:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872]" name="initializeRestClient" is-config="true" duration-ms="3" started-at="2019-10-01T17:26:10Z" finished-at="2019-10-01T17:26:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API.tc_NAG_NAGP_13_AddComments(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_13_AddComments(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872]" name="tc_NAG_NAGP_13_AddComments" duration-ms="6800" started-at="2019-10-01T17:26:10Z" description="Validate that a user is able to Add a Comment using WunderLink API." data-provider="Add TaskComments" finished-at="2019-10-01T17:26:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[task_id, text]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5447815366, Hey There]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_13_AddComments -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872]" name="getResult" is-config="true" duration-ms="3" started-at="2019-10-01T17:26:17Z" finished-at="2019-10-01T17:26:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_13_AddComments status=SUCCESS method=Test_WunderList_TaskComment_API.tc_NAG_NAGP_13_AddComments(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:17Z" finished-at="2019-10-01T17:26:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API.tc_NAG_NAGP_13_AddComments(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_13_AddComments(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872]" name="tc_NAG_NAGP_13_AddComments" duration-ms="2013" started-at="2019-10-01T17:26:17Z" description="Validate that a user is able to Add a Comment using WunderLink API." data-provider="Add TaskComments" finished-at="2019-10-01T17:26:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[task_id, text]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5447815366, How are you.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_13_AddComments -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:19Z" finished-at="2019-10-01T17:26:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_13_AddComments status=SUCCESS method=Test_WunderList_TaskComment_API.tc_NAG_NAGP_13_AddComments(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API@1e67b872]" name="tearDown" is-config="true" duration-ms="302" started-at="2019-10-01T17:27:47Z" finished-at="2019-10-01T17:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nag.nagp.wunderList.testcases.Test_WunderList_TaskComment_API -->
+      <class name="com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="initiate" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:50Z" finished-at="2019-10-01T17:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_10_AddUpdateSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_10_AddUpdateSubTask" duration-ms="2011" started-at="2019-10-01T17:26:50Z" description="Validate that a user is able to Add and Update a Subtask using WunderLink API." data-provider="Add Subtasks" finished-at="2019-10-01T17:26:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[task_id, title, completed]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5447815366, Task for Groceries, true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_10_AddUpdateSubTask -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:50Z" finished-at="2019-10-01T17:26:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_10_AddUpdateSubTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:52Z" finished-at="2019-10-01T17:26:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_10_AddUpdateSubTask status=SUCCESS method=Test_WunderList_SubTask_API.tc_NAG_NAGP_10_AddUpdateSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:52Z" finished-at="2019-10-01T17:26:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_10_AddUpdateSubTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_10_AddUpdateSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_10_AddUpdateSubTask" duration-ms="1935" started-at="2019-10-01T17:26:52Z" description="Validate that a user is able to Add and Update a Subtask using WunderLink API." data-provider="Add Subtasks" finished-at="2019-10-01T17:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[task_id, title, completed]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5447815366, Task for Family, false]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_10_AddUpdateSubTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:54Z" finished-at="2019-10-01T17:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_10_AddUpdateSubTask status=SUCCESS method=Test_WunderList_SubTask_API.tc_NAG_NAGP_10_AddUpdateSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-10-01T17:26:54Z" finished-at="2019-10-01T17:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_11_AddDeleteSubTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_11_AddDeleteSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_11_AddDeleteSubTask" duration-ms="3330" started-at="2019-10-01T17:26:54Z" description="Validate that a user is able to Delete a Subtask after adding it using WunderLink API." data-provider="Add Subtasks" finished-at="2019-10-01T17:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[task_id, title, completed]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5447815366, Task for Groceries, true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_11_AddDeleteSubTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:57Z" finished-at="2019-10-01T17:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_11_AddDeleteSubTask status=SUCCESS method=Test_WunderList_SubTask_API.tc_NAG_NAGP_11_AddDeleteSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:26:57Z" finished-at="2019-10-01T17:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_11_AddDeleteSubTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_11_AddDeleteSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_11_AddDeleteSubTask" duration-ms="3376" started-at="2019-10-01T17:26:57Z" description="Validate that a user is able to Delete a Subtask after adding it using WunderLink API." data-provider="Add Subtasks" finished-at="2019-10-01T17:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[task_id, title, completed]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5447815366, Task for Family, false]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_11_AddDeleteSubTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:27:00Z" finished-at="2019-10-01T17:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_11_AddDeleteSubTask status=SUCCESS method=Test_WunderList_SubTask_API.tc_NAG_NAGP_11_AddDeleteSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-10-01T17:27:00Z" finished-at="2019-10-01T17:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_12_AddUpdateDeleteSubTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_12_AddUpdateDeleteSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_12_AddUpdateDeleteSubTask" duration-ms="4326" started-at="2019-10-01T17:27:00Z" description="Validate that a user is able to Update and Delete a Subtask after adding it using WunderLink API." data-provider="Add Subtasks" finished-at="2019-10-01T17:27:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[task_id, title, completed]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5447815366, Task for Groceries, true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_12_AddUpdateDeleteSubTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-01T17:27:05Z" finished-at="2019-10-01T17:27:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_12_AddUpdateDeleteSubTask status=SUCCESS method=Test_WunderList_SubTask_API.tc_NAG_NAGP_12_AddUpdateDeleteSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-10-01T17:27:05Z" finished-at="2019-10-01T17:27:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_12_AddUpdateDeleteSubTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_12_AddUpdateDeleteSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_12_AddUpdateDeleteSubTask" duration-ms="4169" started-at="2019-10-01T17:27:05Z" description="Validate that a user is able to Update and Delete a Subtask after adding it using WunderLink API." data-provider="Add Subtasks" finished-at="2019-10-01T17:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[task_id, title, completed]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5447815366, Task for Family, false]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_12_AddUpdateDeleteSubTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="getResult" is-config="true" duration-ms="1" started-at="2019-10-01T17:27:09Z" finished-at="2019-10-01T17:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_12_AddUpdateDeleteSubTask status=SUCCESS method=Test_WunderList_SubTask_API.tc_NAG_NAGP_12_AddUpdateDeleteSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_9_AddSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_9_AddSubTask" duration-ms="2043" started-at="2019-10-01T17:27:09Z" description="Validate that a user is able to Add a SubTask using WunderLink API." data-provider="Add Subtasks" finished-at="2019-10-01T17:27:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[task_id, title, completed]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5447815366, Task for Groceries, true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_9_AddSubTask -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="initializeRestClient" is-config="true" duration-ms="0" started-at="2019-10-01T17:27:09Z" finished-at="2019-10-01T17:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_9_AddSubTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="initializeRestClient" is-config="true" duration-ms="1" started-at="2019-10-01T17:27:11Z" finished-at="2019-10-01T17:27:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API.tc_NAG_NAGP_9_AddSubTask(java.util.ArrayList,java.util.ArrayList) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-01T17:27:11Z" finished-at="2019-10-01T17:27:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_9_AddSubTask status=SUCCESS method=Test_WunderList_SubTask_API.tc_NAG_NAGP_9_AddSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tc_NAG_NAGP_9_AddSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="tc_NAG_NAGP_9_AddSubTask" duration-ms="1967" started-at="2019-10-01T17:27:11Z" description="Validate that a user is able to Add a SubTask using WunderLink API." data-provider="Add Subtasks" finished-at="2019-10-01T17:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[task_id, title, completed]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[5447815366, Task for Family, false]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_NAG_NAGP_9_AddSubTask -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100]" name="getResult" is-config="true" duration-ms="0" started-at="2019-10-01T17:27:13Z" finished-at="2019-10-01T17:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_NAG_NAGP_9_AddSubTask status=SUCCESS method=Test_WunderList_SubTask_API.tc_NAG_NAGP_9_AddSubTask(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API@4cb2c100] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.nag.nagp.wunderList.testcases.Test_WunderList_SubTask_API -->
+    </test> <!-- Wunderlist Rest API -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

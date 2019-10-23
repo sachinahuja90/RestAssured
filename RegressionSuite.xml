@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+
+	<listeners>
+		<listener class-name="com.nag.restapi.testListeners.TestListener"/>
+		<listener class-name="com.nag.restapi.reRunFailedTestcase.RetryListenerClass"/>
+	</listeners>
+
+	<test name="Wunderlist Rest API">	
+		<classes>		
+			<class name="com.nag.wunderList.testcases.Test_WunderList_TaskComment_API"/>			
+			<class name="com.nag.wunderList.testcases.Test_WunderList_List_API" />
+			<class name="com.nag.wunderList.testcases.Test_WunderList_Task_API" />
+			<class name="com.nag.wunderList.testcases.Test_WunderList_SubTask_API" />
+			<class name="com.nag.wunderList.testcases.Test_WunderList_Notes_API" />
+		</classes>
+
+	</test>
+</suite> <!-- Suite -->
